@@ -13,6 +13,7 @@ We hope to support the community by providing a multi-purpose set of raw data fo
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#folder-tree">Folder Tree</a></li>
     <li><a href="#data-format">Data format</a>
     <li><a href="#labeling-process">Labeling process</a></li>
     <li><a href="#reviewing-process">Reviewing process</a></li>
@@ -22,24 +23,37 @@ We hope to support the community by providing a multi-purpose set of raw data fo
   </ol>
 </details>
 
+##Folder Tree
+	DANeS
+	  |
+	  |____raw_data
+	  |	   |____ #contain 8 batches of the dataset
+	  |
+	  |____annotated_data
+	  |	   |____ #contain annotated data
+	  |
+	  |____model
+		   |____ #contain machine learning model
+ 
 ## Data format
-The dataset is stored in [`.json`](https://www.json.org) format and has been divided into multiple batches. Here’s the example of each record's format:
+The raw dataset is stored raw_data folder with [`.json`](https://www.json.org) format and has been divided into 8 batches. Each batch have an array that contain many json and each json is a record of the dataset. Here’s the example of each record's format:
 
 | Key          | Type                   | Description                                  |
 | ------------ | -----------------------| -------------------------------------------- |
-| title        | string                 | title of the digital news                    |
-| url          | string                 | link to the digital news                     |
+| text         | string                 | title of the digital news                    |
+| meta         | json                   | metadata of the digital news                 |
+| uri          | string                 | link to the digital news                     |
 | description  | string                 | description of the digital news              |
 
 Example for a record of dataset:
 ```javascript
 {
-        	"text": "Ba ra đi vào ngày nhận điểm thi, nữ sinh được hỗ trợ học phí",
-        	"meta": {
-            			"description": "Ngày nhận được tin đỗ đại học cũng là lúc bố mất vì Covid-19, L.A dường như gục ngã. Thế nhưng, bên cạnh em đã có các mạnh thường quân hỏi han, hỗ trợ về kinh tế.",
-            			"uri": "https://yan.vn/ba-ra-di-vao-ngay-nhan-diem-thi-nu-sinh-duoc-ho-tro-hoc-phi-277328.html"
-        		}
-    	}
+        "text": "Ba ra đi vào ngày nhận điểm thi, nữ sinh được hỗ trợ học phí",
+        "meta": {
+            		"description": "Ngày nhận được tin đỗ đại học cũng là lúc bố mất vì Covid-19, L.A dường như gục ngã. Thế nhưng, bên cạnh em đã có các mạnh thường quân hỏi han, hỗ trợ về kinh tế.",
+            		"uri": "https://yan.vn/ba-ra-di-vao-ngay-nhan-diem-thi-nu-sinh-duoc-ho-tro-hoc-phi-277328.html"
+        	}
+}
 ``` 
  
 ## Labeling process
