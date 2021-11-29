@@ -1,0 +1,1 @@
+The raw dataset is the collection of title from e-newspapers and it belongs to the individual who created the work.
