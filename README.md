@@ -19,7 +19,7 @@ We hope to support the community by providing a multi-purpose set of raw data fo
     <li><a href="#reviewing-process">Reviewing process</a></li>
     <li><a href="#updating-process">Updating process</a></li>
     <li><a href="#license-of-annotated-dataset">License of annotated dataset</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about-us">About-us</a></li>
   </ol>
 </details>
 
@@ -64,9 +64,12 @@ Example for a record of dataset:
 
 ## Reviewing process
 
-- 20% of the annotated records will be assigned to different annotator to re-annotate and compare with the original version.
-
-- Quality Assurance members will randomly check 20-50% of the total annotated records.
+Reviewing process contains two main phases: cross validation and project reviewing.
+  - The admin or the owner of the project will select qualified reviewers based on their attitude and performance.
+  - The person who is assigned to cross validating will be given 20% of the annotated records from other annotators. This person will also be in charge of re-correcting the mislabeled records.
+  - After the cross validation phase, the person who is assigned to review the project will randomly pick 20 - 50% of the total annotated records. Records that are not meet the given quality can either be:
+       + Re-corrected by the project reviewer.
+       + Re-assigned and re-corrected by the formal annotator.
 
 ## Updating process
 
@@ -82,7 +85,7 @@ The annotated dataset of DANeS is licensed under Creative Commons Attribution 4.
 
 ## About us
 
-### DATASET.JSC - (+84) 98 442 0826 - info@dataset.vn
+### DATASET .JSC - (+84) 98 442 0826 - info@dataset.vn
 
 Website: [Dataset.vn](http://dataset.vn)
 
