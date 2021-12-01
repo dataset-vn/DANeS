@@ -64,6 +64,7 @@ Example for a record of dataset:
 
 	+ The article should be classified under one out of three sentiment: Negative, Positive and Neutral. 
 	+ The article will then be classified by 22 topics: World, Politics, Economics, Sports, Cultures, Entertainment,Technology, Science, Education, Daily life, Regulations, Real estate, Social, Traffic, Environment, Stock market, Covid-19, Breaking news, Game, Movies, Health, Travel, Unidentified. Each article can carry numerous relevant and suitable topics. 
+
 ![DANeS 2](https://user-images.githubusercontent.com/94349957/144266113-511ad9c8-6f06-42a6-84be-dd23f7f2b9fa.gif)
 
 ## Reviewing process
