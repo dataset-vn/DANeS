@@ -58,6 +58,7 @@ Example for a record of dataset:
  
 ## Labeling process
 - Log in:
+
 ![DANeS 1 (1)](https://user-images.githubusercontent.com/94349957/144125798-d2ae5738-df36-4ca2-a1a3-778fd7dd5dd7.gif)
 
 - Annotating:
