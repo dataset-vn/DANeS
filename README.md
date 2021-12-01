@@ -63,7 +63,7 @@ Example for a record of dataset:
 - Annotating:
 
 	+ The article should be classified under one out of three sentiment: Negative, Positive and Neutral. 
-	+ The article will then be classified by topics: (em đính các topics sau ạ). Each article can carry numerous relevant and suitable topics. 
+	+ The article will then be classified by 22 topics: World, Politics, Economics, Sports, Cultures, Entertainment,Technology, Science, Education, Daily life, Regulations, Real estate, Social, Traffic, Environment, Stock market, Covid-19, Breaking news, Game, Movies, Health, Travel, Unidentified. Each article can carry numerous relevant and suitable topics. 
 	![DANeS 2](https://user-images.githubusercontent.com/94349957/144266113-511ad9c8-6f06-42a6-84be-dd23f7f2b9fa.gif)
 
 ## Reviewing process
@@ -90,6 +90,8 @@ The annotated dataset of DANeS is licensed under Creative Commons Attribution 4.
 
 ### DATASET .JSC - (+84) 98 442 0826 - info@dataset.vn
 
+Dataset’s mission is to support individuals and organizations with data collecting and data processing services by providing tools that simplify and enhance the efficiency of the processes. With the large and professional workers system, Dataset aspires to provide partners with a comprehensive and quality solution, suitable with the characteristics of the technology market.
+
 Website: [Dataset.vn](http://dataset.vn)
 
 LinkedIn: [Dataset.vn - Data Crowdsourcing Platform](https://www.linkedin.com/company/dataset-vn/about/)
@@ -97,6 +99,8 @@ LinkedIn: [Dataset.vn - Data Crowdsourcing Platform](https://www.linkedin.com/co
 Facebook: [Dataset.vn - Data Crowdsourcing Platform](https://www.facebook.com/dataset.vn)
 
 ### AIV Group - (+84) 931 458 189 - marketing@aivgroup.vn
+
+AIV Group aims to apply advanced technologies, especially Artificial Intelligence (AI), Cloud Computing, Big Data, … to digitize, modernize the long-established processes of information production and consumption in Viet Nam society. At the same time, we are working on solutions that solve new problems arising in the field of communication that relate to technology’s problems such as: fake news, images, videos are automatically cut and merged ..
 
 Website: [AIV Group](https://aivgroup.vn/)
 
