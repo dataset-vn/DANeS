@@ -60,14 +60,15 @@ Example for a record of dataset:
 - Log in:
 ![DANeS 1 (1)](https://user-images.githubusercontent.com/94349957/144125798-d2ae5738-df36-4ca2-a1a3-778fd7dd5dd7.gif)
 
-- The article should be classified under one out of three sentiment: Negative, Positive and Neutral. 
-	
-- The article will then be classified by topics: (em đính các topics sau ạ). Each article can carry numerous relevant and suitable topics. 
+- Annotating:
+
+	+ The article should be classified under one out of three sentiment: Negative, Positive and Neutral. 
+	+ The article will then be classified by topics: (em đính các topics sau ạ). Each article can carry numerous relevant and suitable topics. 
+	![DANeS 2](https://user-images.githubusercontent.com/94349957/144266113-511ad9c8-6f06-42a6-84be-dd23f7f2b9fa.gif)
 
 ## Reviewing process
 
-Reviewing process contains two main phases: cross validation and project reviewing.
-  - The admin or the owner of the project will select qualified reviewers based on their attitude and performance.
+The admin or the owner of the project will select qualified reviewers based on their attitude and performance. Reviewing process contains two main phases: cross validation and project reviewing.
   - The person who is assigned to cross validating will be given 20% of the annotated records from other annotators. This person will also be in charge of re-correcting the mislabeled records.
   - After the cross validation phase, the person who is assigned to review the project will randomly pick 20 - 50% of the total annotated records. Records that are not meet the given quality can either be:
        + Re-corrected by the project reviewer.
