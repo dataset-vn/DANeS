@@ -27,7 +27,7 @@ We hope to support the community by providing a multi-purpose set of raw data fo
 	DANeS
 	  |
 	  |____raw_data
-	  |	   |____ #contain 8 batches of the dataset
+	  |	   |____ #contain 8 batches of the raw dataset
 	  |
 	  |____annotated_data
 	  |	   |____ #contain annotated data
@@ -57,6 +57,8 @@ Example for a record of dataset:
 ``` 
  
 ## Labeling process
+- Log in:
+![DANeS 1 (1)](https://user-images.githubusercontent.com/94349957/144125798-d2ae5738-df36-4ca2-a1a3-778fd7dd5dd7.gif)
 
 - The article should be classified under one out of three sentiment: Negative, Positive and Neutral. 
 	
