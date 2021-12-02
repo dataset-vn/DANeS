@@ -26,6 +26,8 @@ We hope to support the community by providing a multi-purpose set of raw data fo
 ## Folder Tree
 	DANeS
 	  |
+	  |____README.md
+	  |
 	  |____raw_data
 	  |	   |____ DANeS_batch_#1.json
 	  |	   |____ DANeS_batch_#2.json
