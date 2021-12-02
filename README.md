@@ -3,7 +3,7 @@
 *<sub>Source: <a href="https://www.freepik.com/vectors/technology">Technology vector created by macrovector - www.freepik.com</a>.</sub>*
 
 
-DANeS is an open-source E-newspaper dataset by collaboration between DATASET .JSC (dataset.vn) and AIV Group (aivgroup.vn) that contains over 600.000 online papers’ articles. The articles are gathered from a number of Vietnamese Publishing Houses such as: tuoitre.vn, baobinhduong.vn, baoquangbinh.vn, kinhtechungkhoan.vn, doanhnghiep.vn, vnexpress.net, ...
+DANeS is an open-source E-newspaper dataset by collaboration between DATASET .JSC (dataset.vn) and AIV Group (aivgroup.vn) that contains over 600.000 online paper's articles. The articles are gathered from a number of Vietnamese Publishing Houses such as: tuoitre.vn, baobinhduong.vn, baoquangbinh.vn, kinhtechungkhoan.vn, doanhnghiep.vn, vnexpress.net, ...
 
 We hope to support the community by providing a multi-purpose set of raw data for different subjects (students, developers, companies, …). So if you create something with this dataset, please share with us through our e-mail: info@dataset.vn
 
@@ -48,7 +48,7 @@ We hope to support the community by providing a multi-purpose set of raw data fo
 		   |____ LICENSE
  
 ## Data format
-The raw dataset is stored raw_data folder with [`.json`](https://www.json.org) format and has been divided into 8 batches. Each batch have an array that contain many json and each json is a record of the dataset. Here’s the example of each record's format:
+The raw dataset is stored in raw_data folder with [`.json`](https://www.json.org) format and has been divided into 8 batches. Each batch has an array that contain many json and each json is a record of the dataset. Here’s the example of each record's format:
 
 | Key          | Type                   | Description                                  |
 | ------------ | -----------------------| -------------------------------------------- |
