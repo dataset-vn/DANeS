@@ -27,13 +27,23 @@ We hope to support the community by providing a multi-purpose set of raw data fo
 	DANeS
 	  |
 	  |____raw_data
-	  |	   |____ #contain 8 batches of the raw dataset
+	  |	   |____ DANeS_batch_#1.json
+	  |	   |____ DANeS_batch_#2.json
+	  |	   |____ DANeS_batch_#3.json
+	  |	   |____ DANeS_batch_#4.json
+	  |	   |____ DANeS_batch_#5.json
+	  |	   |____ DANeS_batch_#6.json
+	  |	   |____ DANeS_batch_#7.json
+	  |	   |____ DANeS_batch_#8.json
+	  |	   |____ README.md
 	  |
 	  |____annotated_data
 	  |	   |____ #contain annotated data
 	  |
 	  |____model
-		   |____ #contain machine learning model
+		   |____ Train_opensource.py
+		   |____ README.md
+		   |____ LICENSE
  
 ## Data format
 The raw dataset is stored raw_data folder with [`.json`](https://www.json.org) format and has been divided into 8 batches. Each batch have an array that contain many json and each json is a record of the dataset. Here’s the example of each record's format:

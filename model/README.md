@@ -1,5 +1,10 @@
 # DANeS
 
+## 1. Introduction
+
+DANeS stands for "DATASET.VN and [AIV-Group](https://aivgroup.vn) News Sentiment". This is an open-source dataset that classifies topics and sentiment of e-newspaper's titles under the cooperation between  DATASET JSC (dataset.vn) and AIV Group (aivgroup.vn).
+
+This document demontrates how to train model that can classify topics and sentiment of e-newspaper's titles by using Fasttext. FastText is an open-source library created by Facebook in 2016, it purpose is to support text classification and to train word embeded model
 
 ## 2. Setting:
 
