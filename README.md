@@ -98,6 +98,8 @@ The admin or the owner of the project will select qualified reviewers based on t
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
 The annotated dataset of DANeS is licensed under Creative Commons Attribution 4.0 International License.
 
+This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
+
 ## About us
 
 ### DATASET .JSC - (+84) 98 442 0826 - info@dataset.vn
