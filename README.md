@@ -10,8 +10,7 @@ We hope to support the community by providing a multi-purpose set of raw data fo
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+## Table of Contents
   <ol>
     <li><a href="#folder-tree">Folder Tree</a></li>
     <li><a href="#data-format">Data format</a>
