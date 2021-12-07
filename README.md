@@ -1,31 +1,31 @@
-# DANeS - Open-source E-newspaper dataset
+# DANeS - Bộ dữ liệu nguồn mở các đầu báo điện tử
 ![12613](https://user-images.githubusercontent.com/94349957/143620522-2b417ece-2482-4475-a261-120af096cb0d.jpg)
-*<sub>Source: <a href="https://www.freepik.com/vectors/technology">Technology vector created by macrovector - www.freepik.com</a>.</sub>*
+*<sub>Nguồn: <a href="https://www.freepik.com/vectors/technology">Technology vector created by macrovector - www.freepik.com</a>.</sub>*
 
+DANeS là một bộ dữ liệu mở xây dựng dựa trên sự hợp tác của DATASET. JSC và AIV Group. Bộ dữ liệu gồm ~ 500.000 bài báo điện tử tiếng Việt đến từ các trang báo như: tuoitre.vn, baobinhduong.vn, baoquangbinh.vn, kinhtechungkhoan.vn, doanhnghiep.vn, vnexpress.net, ... Các bài báo sẽ bao gồm tiêu đề, URL, mô tả tổng quan từng bài báo và được dán nhãn tích cực/tiêu cực/trung tính dựa trên nội dung tiêu đề.
 
-DANeS is an open-source E-newspaper dataset by collaboration between DATASET .JSC (dataset.vn) and AIV Group (aivgroup.vn) that contains over 600.000 online paper's articles. The articles are gathered from a number of Vietnamese Publishing Houses such as: tuoitre.vn, baobinhduong.vn, baoquangbinh.vn, kinhtechungkhoan.vn, doanhnghiep.vn, vnexpress.net, ...
-
-We hope to support the community by providing a multi-purpose set of raw data for different subjects (students, developers, companies, …). So if you create something with this dataset, please share with us through our e-mail: info@dataset.vn
-
+DANeS được đưa ra để phục vụ cộng đồng và các dự án AI tại Việt Nam, với hy vọng thúc đẩy phong trào kiến tạo các bộ dữ liệu mở để giải quyết các bài toán chung của xã hội. Kho dữ liệu tập hợp số lượng lớn các đầu báo để hỗ trợ huấn luyện mô hình AI phân biệt được sắc thái văn bản dựa trên các cấp khác nhau. Bạn có thể chia sẻ dự án/ sản phẩm sử dụng mô hình và kho dữ liệu của DANeS với chúng chúng tôi qua email: info@dataset.vn
 
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents
+## Mục lục
   <ol>
-    <li><a href="#folder-tree">Folder Tree</a></li>
-    <li><a href="#data-format">Data format</a>
-    <li><a href="#labeling-process">Labeling process</a></li>
-    <li><a href="#reviewing-process">Reviewing process</a></li>
-    <li><a href="#updating-process">Updating process</a></li>
-    <li><a href="#license-of-annotated-dataset">License of annotated dataset</a></li>
-    <li><a href="#about-us">About-us</a></li>
+    <li><a href="#cây-thư-mục">Cây thư mục</a></li>
+    <li><a href="#định-dạng-dữ-liệu">Định dạng dữ liệu</a>
+    <li><a href="#quy-trình-dán-nhãn">Quy trình dán nhãn</a></li>
+    <li><a href="#quy-trình-review">Quy trình review</a></li>
+    <li><a href="#quy-trình-cập-nhật">Quy trình cập nhật</a></li>
+    <li><a href="#bản-quyền">Bản quyền</a></li>
+    <li><a href="#về-chúng-tôi">Về chúng tôi</a></li>
   </ol>
 </details>
 
-## Folder Tree
+## Cây thư mục
 	DANeS
 	  |
 	  |____README.md
+	  |
+	  |____README_english_ver.md
 	  |
 	  |____raw_data
 	  |	   |____ DANeS_batch_#1.json
@@ -44,10 +44,11 @@ We hope to support the community by providing a multi-purpose set of raw data fo
 	  |____model
 		   |____ Train_opensource.py
 		   |____ README.md
+		   |____ README_english_ver.md
 		   |____ LICENSE
  
-## Data format
-The raw dataset is stored in raw_data folder with [`.json`](https://www.json.org) format and has been divided into 8 batches. Each batch has an array that contains many json and each json is a record of the dataset. Here’s the example of each record's format:
+## Định dạng dữ liệu
+Dữ liệu thô được lưu trữ trong thư mục raw_data dưới định dạng là tệp tin [`.json`](https://www.json.org) và được chia ra làm 8 batch. Mỗi batch bao gồm 1 mảng chứa nhiều json và mỗi json là 1 bản ghi của bộ dữ liệu. 
 
 | Key          | Type                   | Description                                  |
 | ------------ | -----------------------| -------------------------------------------- |
@@ -56,7 +57,7 @@ The raw dataset is stored in raw_data folder with [`.json`](https://www.json.org
 | uri          | string                 | link to the digital news                     |
 | description  | string                 | description of the digital news              |
 
-Example for a record of dataset:
+Dưới đây là ví dụ về định dạng của mỗi bản ghi:
 ```javascript
 {
         "text": "Ba ra đi vào ngày nhận điểm thi, nữ sinh được hỗ trợ học phí",
@@ -67,45 +68,48 @@ Example for a record of dataset:
 }
 ``` 
  
-## Labeling process
-- Log in:
+## Quy trình dán nhãn
+- Bước 1: Đăng nhập.
 
-![DANeS 1 (1)](https://user-images.githubusercontent.com/94349957/144125798-d2ae5738-df36-4ca2-a1a3-778fd7dd5dd7.gif)
+![DANeS redo 1](https://user-images.githubusercontent.com/94349957/144919125-6c21c457-4cf0-4a07-82c4-9689ff7d613d.gif)
 
-- Annotating:
+- Bước 2: Dán nhãn.
+	+ Tiêu đề được phân loại sắc thái: tích cực, tiêu cực, trung tính.
+	+ Tiêu đề được phân loại vào các chủ đề liên quan trong 22 chủ đề:Thế giới, Chính trị, Kinh tế, Thể thao, Văn hoá, Giải trí, Công nghệ, Khoa học, Giáo dục, Đời sống, Pháp luật, Bất động sản, Xã hội, Giao thông, Môi trường, Chứng khoán, Covid-19, Hóng biến, Game, Phim ảnh, Sức khoẻ, Du lịch
 
-	+ The article should be classified under one out of three sentiment: Negative, Positive and Neutral. 
-	+ The article will then be classified by 22 topics: World, Politics, Economics, Sports, Cultures, Entertainment,Technology, Science, Education, Daily life, Regulations, Real estate, Social, Traffic, Environment, Stock market, Covid-19, Breaking news, Game, Movies, Health, Travel, Unidentified. Each article can carry numerous relevant and suitable topics. 
+![DANeS redo 2](https://user-images.githubusercontent.com/94349957/144919228-fbda5c51-9b7f-47ef-a51e-ca95813419c7.gif)
 
-![DANeS 2](https://user-images.githubusercontent.com/94349957/144266113-511ad9c8-6f06-42a6-84be-dd23f7f2b9fa.gif)
+## Quy trình review
 
-## Reviewing process
+- Người review và kiểm tra chéo sẽ được quản lý hoặc chủ sở hữu dự án lựa chọn từ những CTV dựa trên chất lượng công việc và thái độ trong quá trình làm việc.
+- Quy trình review data gồm 2 bước: kiểm tra chéo và review
+     + Mỗi người kiểm tra chéo sẽ được giao cho khoảng 20% số lượng bản ghi của người dán nhãn khác.
+        => Nếu người kiểm tra chéo phát hiện được bản ghi không đạt chất lượng thì phải sửa lại để đạt đúng yêu cầu.
+     + Người review, mặt khác, sẽ tiến hành check 20-50% tổng số lượng nhãn được gán của cả dự án.
+        => Nếu người review phát hiện bản ghi được gán nhãn không đạt chất lượng thì có thể lựa chọn sửa lại hoặc chuyển lại cho người gán nhãn/người kiểm tra chéo gán nhãn lại.
 
-The admin or the owner of the project will select qualified reviewers based on their attitude and performance. Reviewing process contains two main phases: cross validation and project reviewing.
-  - The person who is assigned to cross validating will be given 20% of the annotated records from other annotators. This person will also be in charge of re-correcting the mislabeled records.
-  - After the cross validation phase, the person who is assigned to review the project will randomly pick 20 - 50% of the total annotated records. Records that are not meet the given quality can either be:
-       + Re-corrected by the project reviewer.
-       + Re-assigned and re-corrected by the formal annotator.
+## Quy trình cập nhật
 
-## Updating process
+- Bộ dữ liệu thô sẽ được cập nhật đầy đủ trên trang chính thức của DANeS tại Github. (https://github.com/dataset-vn/DANeS)
 
-- The raw data is expected to be fully uploaded at one time.
-
-- The annotated records are expected to be updated once a month to official repository of DANeS (https://github.com/dataset-vn/DANeS)
+- Phần dữ liệu gồm các bản ghi đã được dán nhãn sẽ được cập hàng tháng trên trang chính thức của DANeS tại Github. (https://github.com/dataset-vn/DANeS)
 
 
-## License of annotated dataset
+## Bản quyền
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
-The annotated dataset of DANeS is licensed under Creative Commons Attribution 4.0 International License.
+Phần dữ liệu được dán nhãn thuộc DANeS được cấp phép theo Giấy phép Quốc tế Creative Commons Attribution 4.0 (CC BY 4.0).
 
-This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
+Với loại giấy phép này bạn có thể:
+- Sao chép, chỉnh sửa, phân phối và xây dựng sản phẩm của bạn dựa trên các dữ liệu đã công bố trong dự án này ở bất kì định dạng hoặc bất kỳ phương tiện nào.
+- Chỉnh sửa, biến đổi và xây dựng lại cho mọi mục đích, kể cả mục đích thương mại.
+Tuy nhiên bạn cần phải trích dẫn nguồn gốc của tài liệu này khi mà bạn sử dụng bất kỳ dữ liệu đã được dán nhãn và công bố trong bộ dữ liệu DANeS này.
 
-## About us
+## Về chúng tôi
 
 ### DATASET .JSC - (+84) 98 442 0826 - info@dataset.vn
 
-Dataset’s mission is to support individuals and organizations with data collecting and data processing services by providing tools that simplify and enhance the efficiency of the processes. With the large and professional workers system, Dataset aspires to provide partners with a comprehensive and quality solution, suitable with the characteristics of the technology market.
+Sứ mệnh của Dataset là hỗ trợ các các cá nhân và tổ chức có nhu cầu về thu thập và xử lý dữ liệu bằng cách cung cấp công cụ giúp đơn giản hóa và tăng hiệu suất quá trình thu thập, xử lý dữ liệu của các lực lượng xử lý dữ liệu. Với hệ thống nguồn nhân lực đông đảo và chuyên nghiệp, Dataset mong muốn đưa đến cho đối tác một giải pháp toàn diện và chất lượng, phù hợp với đặc thù của thị trường Việt Nam.
 
 Website: [Dataset.vn](http://dataset.vn)
 
@@ -115,9 +119,8 @@ Facebook: [Dataset.vn - Data Crowdsourcing Platform](https://www.facebook.com/da
 
 ### AIV Group - (+84) 931 458 189 - marketing@aivgroup.vn
 
-AIV Group aims to apply advanced technologies, especially Artificial Intelligence (AI), Cloud Computing, Big Data, … to digitize, modernize the long-established processes of information production and consumption in Viet Nam society. At the same time, we are working on solutions that solve new problems arising in the field of communication that relate to technology’s problems such as: fake news, images, videos are automatically cut and merged ..
+AIV Group hướng đến việc ứng dụng những tiến bộ về công nghệ, đặc biệt là Trí tuệ nhân tạo (AI), Điện toán đám mây (Cloud Computing), Dữ liệu lớn (Big Data) để số hoá, hiện đại hoá các quy trình sản xuất và tiêu thụ thông tin đã tồn tại lâu đời trong xã hội Việt Nam, đồng thời góp phần giải quyết những vấn đề mới phát sinh trong lĩnh vực truyền thông do mặt trái của công nghệ như: vấn nạn tin giả, hình ảnh, video được cắt ghép tự động…
 
 Website: [AIV Group](https://aivgroup.vn/)
 
 Facebook: [AIV Group](https://www.facebook.com/aivgroup.jsc/)
-

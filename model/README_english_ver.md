@@ -1,21 +1,21 @@
 # DANeS
 
-## 1. Giới thiệu
+## 1. Introduction
 
-DANeS viết tắt của "DATASET.VN and [AIV-Group](https://aivgroup.vn) News Sentiment". Đây là 1 dự án mã nguồn mở giúp phân loại chủ đề và sắc thái của các tiêu đề bài viết với sự hợp tác của DATASET JSC (dataset.vn) và AIV Group (aivgroup.vn).
+DANeS stands for "DATASET.VN and [AIV-Group](https://aivgroup.vn) News Sentiment". This is an open-source dataset that classifies topics and sentiment of e-newspaper's titles under the cooperation between  DATASET JSC (dataset.vn) and AIV Group (aivgroup.vn).
 
-Tài liệu này hướng dẫn cách training mô hình phân loại chủ đề và sắc thái bằng Fasttext. FastText là thư viện mã nguồn mở do Facebook tạo ra năm 2016, nó hỗ trợ việc huấn luyện phép nhúng từ và phân loại văn bản.
+This document demontrates how to train model that can classify topics and sentiment of e-newspaper's titles by using Fasttext. FastText is an open-source library created by Facebook in 2016, it purpose is to support text classification and to train word embeded model
 
-## 2. Cài đặt
+## 2. Setting:
 
-Cài đặt các gói cần thiết:
+You must install these packages:
 
 * fasttext
 * underthesea
 
 ## 3. Training model
 
-### 3.1 Import các thư viện cần thiết
+### 3.1 Import necessary packages
 
 ```python
 import pandas as pd
@@ -26,9 +26,9 @@ from underthesea import word_tokenize
 from sklearn.model_selection import train_test_split
 ```
 
-### 3.2 Viết các hàm xử lý dữ liệu text
+### 3.2 Data Preprocessing for Model
 
-* Tách từ (từ đơn, từ ghép), chuyển các từ về chữ viết thường, loại bỏ các khoảng trắng liên tiếp
+*Split words (single word, compound word), convert words to lowercase, remove consecutive spaces
 
 ```python
 def text_preprocess(document):
@@ -38,7 +38,7 @@ def text_preprocess(document):
     return document
 ```
 
-* Loại bỏ các stopword: Phần này chúng tôi dùng danh sách stopword tự tạo ra, có thể thay thế bằng các tài liệu bất kỳ.
+* Remove stopwords
 
 ```python
 data = pd.read_csv('./stopwords.csv', encoding='utf-8')
@@ -52,9 +52,9 @@ def remove_stopwords(document):
     return ' '.join(words)
 ```
 
-### 3.3 Nhập dữ liệu các tiêu đề bài báo và xử lý
+### 3.3 Input article titles
 
-* Dữ liệu nhập vào dạng
+* Input data
 
 ```python
 df = pd.read_csv('500ksample.csv', encoding="utf-8")
@@ -66,17 +66,16 @@ title|publish_date|topic|sentiment
 Vaccine COVID-19 dạng xịt mũi được thử nghiệm ...	| 2021-10-13 13:52:31+00:00| chinh_tri| 1
 Mưa lũ làm 8 người thương vong và mất tích, gâ...	| 2021-10-17 23:16:28+00:00| moi_truong| 2
 
-Trong đó:
 
-`title` là tiêu đề bài viết
+`title` is the article title
 
-`publish_date` là thời điểm bài viết được xuất bản
+`publish_date` is time when the article was published
 
-`topic` là chủ đề của bài viết: Chính trị, Môi trường, Đời sống, Thời sự,...
+`topic` is the topic of the article: Politics, Environment, Life, News,...
 
-`sentiment` là sắc thái bài viết: 1: Tích cực, 2: Tiêu cực, 3: Trung tính.
+`sentiment` is the title sentiment: 1: Positive, 2: Negative, 3: Neutral. 
 
-* Xử lý dữ liệu, chuyển về dạng phù hợp với gói fasttext
+* Process the data, convert it to a form suitable for fasttext packages
 
 ```python
 df['sentiment'] = df['sentiment'].astype(str)
@@ -88,13 +87,13 @@ df['title'] = df['title'].apply(text_preprocess)
 df['title'] = df['title'].apply(remove_stopwords)
 ```
 
-* Chia tập train, test  với tỷ lệ 8/2
+* Divide data to training and testing with the ratio 8/2 
 
 ```python
 train, test = train_test_split(df, test_size = 0.2, random_state=42)
 ```
 
-* Lưu lại tập train, test để sử dụng fasttext
+* Save train, test to use fasttext
 
 ```python
 # Data topic model:
@@ -105,9 +104,9 @@ train[['sentiment', 'title']].to_csv('train2.txt', index = False, sep = ' ', hea
 test[['sentiment', 'title']].to_csv('test2.txt', index = False,  sep = ' ', header = None)
 ```
 
-### 3.4 Train model, đánh giá với tập test, lưu lại model
+### 3.4 Train model, evaluate with test set, save model
 
-* Chủ đề
+* Topic
 
 ```python
 # Training the fastText classifier topic
@@ -117,7 +116,7 @@ model1.test('test1.txt')
 model1.save_model('model1.bin')
 ```
 
-* Sắc thái
+* Sentiment
 
 ```python
 # Training the fastText classifier sentiment
@@ -127,7 +126,7 @@ model2.test('test2.txt')
 model2.save_model('model2.bin')
 ```
 
-### 3.5 Load model, áp dụng với dữ liệu mới
+### 3.5 Load model, predict new data
 
 ```python
 model1 = fasttext.load_model('model1.bin')
@@ -145,4 +144,4 @@ result = pd.DataFrame({'topic_raw':[pre_topic[0][0]],
                       })
 ```
 
-## Hoàn thành!
+## Done!
