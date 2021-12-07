@@ -2,7 +2,7 @@
 ![12613](https://user-images.githubusercontent.com/94349957/143620522-2b417ece-2482-4475-a261-120af096cb0d.jpg)
 *<sub>Nguồn: <a href="https://www.freepik.com/vectors/technology">Technology vector created by macrovector - www.freepik.com</a>.</sub>*
 
-DANeS là một bộ dữ liệu mở xây dựng dựa trên sự hợp tác của DATASET. JSC và AIV Group. Bộ dữ liệu gồm ~ 500.000 bài báo điện tử tiếng Việt đến từ các trang báo như: tuoitre.vn, baobinhduong.vn, baoquangbinh.vn, kinhtechungkhoan.vn, doanhnghiep.vn, vnexpress.net, ... Các bài báo sẽ bao gồm tiêu đề, URL, mô tả tổng quan từng bài báo và được dán nhãn tích cực/tiêu cực/trung tính dựa trên nội dung tiêu đề.
+DANeS là một bộ dữ liệu mở xây dựng dựa trên sự hợp tác của DATASET. JSC và AIV Group. Bộ dữ liệu gồm ~ 500.000 bài báo điện tử tiếng Việt đến từ các trang báo như: tuoitre.vn, baobinhduong.vn, baoquangbinh.vn, kinhtechungkhoan.vn, doanhnghiep.vn, vnexpress.net,... Các bài báo sẽ bao gồm tiêu đề, URL, mô tả tổng quan từng bài báo và được dán nhãn tích cực/tiêu cực/trung tính dựa trên nội dung tiêu đề.
 
 DANeS được đưa ra để phục vụ cộng đồng và các dự án AI tại Việt Nam, với hy vọng thúc đẩy phong trào kiến tạo các bộ dữ liệu mở để giải quyết các bài toán chung của xã hội. Kho dữ liệu tập hợp số lượng lớn các đầu báo để hỗ trợ huấn luyện mô hình AI phân biệt được sắc thái văn bản dựa trên các cấp khác nhau. Bạn có thể chia sẻ dự án/ sản phẩm sử dụng mô hình và kho dữ liệu của DANeS với chúng chúng tôi qua email: info@dataset.vn
 
@@ -75,18 +75,18 @@ Dưới đây là ví dụ về định dạng của mỗi bản ghi:
 
 - Bước 2: Dán nhãn.
 	+ Tiêu đề được phân loại sắc thái: tích cực, tiêu cực, trung tính.
-	+ Tiêu đề được phân loại vào các chủ đề liên quan trong 22 chủ đề:Thế giới, Chính trị, Kinh tế, Thể thao, Văn hoá, Giải trí, Công nghệ, Khoa học, Giáo dục, Đời sống, Pháp luật, Bất động sản, Xã hội, Giao thông, Môi trường, Chứng khoán, Covid-19, Hóng biến, Game, Phim ảnh, Sức khoẻ, Du lịch
+	+ Tiêu đề được phân loại vào các chủ đề liên quan trong 23 chủ đề: Thế giới, Chính trị, Kinh tế, Thể thao, Văn hoá, Giải trí, Công nghệ, Khoa học, Giáo dục, Đời sống, Pháp luật, Bất động sản, Xã hội, Giao thông, Môi trường, Chứng khoán, Covid-19, Hóng biến, Game, Phim ảnh, Sức khoẻ, Du lịch, Không xác định
 
 ![DANeS redo 2](https://user-images.githubusercontent.com/94349957/144919228-fbda5c51-9b7f-47ef-a51e-ca95813419c7.gif)
 
-## Quy trình review
+## Quy trình kiểm soát chất lượng
 
-- Người review và kiểm tra chéo sẽ được quản lý hoặc chủ sở hữu dự án lựa chọn từ những CTV dựa trên chất lượng công việc và thái độ trong quá trình làm việc.
-- Quy trình review data gồm 2 bước: kiểm tra chéo và review
+- Người kiểm tra chất lượng và kiểm tra chéo sẽ được quản lý hoặc chủ sở hữu dự án lựa chọn từ những CTV dựa trên chất lượng công việc và thái độ trong quá trình làm việc.
+- Quy trình kiểm soát chất lượng data gồm 2 bước: kiểm tra chéo và kiểm tra chất lượng
      + Mỗi người kiểm tra chéo sẽ được giao cho khoảng 20% số lượng bản ghi của người dán nhãn khác.
         => Nếu người kiểm tra chéo phát hiện được bản ghi không đạt chất lượng thì phải sửa lại để đạt đúng yêu cầu.
-     + Người review, mặt khác, sẽ tiến hành check 20-50% tổng số lượng nhãn được gán của cả dự án.
-        => Nếu người review phát hiện bản ghi được gán nhãn không đạt chất lượng thì có thể lựa chọn sửa lại hoặc chuyển lại cho người gán nhãn/người kiểm tra chéo gán nhãn lại.
+     + Người kiểm tra chất lượng, mặt khác, sẽ tiến hành check 20-50% tổng số lượng nhãn được gán của cả dự án.
+        => Nếu người kiểm tra chất lượng phát hiện bản ghi được gán nhãn không đạt chất lượng thì có thể lựa chọn sửa lại hoặc chuyển lại cho người gán nhãn/người kiểm tra chéo gán nhãn lại.
 
 ## Quy trình cập nhật
 
