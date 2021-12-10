@@ -115,7 +115,7 @@ Phần dữ liệu được dán nhãn thuộc <a xmlns:cc="http://creativecommo
 
 ### DATASET .JSC - (+84) 98 442 0826 - info@dataset.vn
 
-Sứ mệnh của Dataset là hỗ trợ các các cá nhân và tổ chức có nhu cầu về thu thập và xử lý dữ liệu bằng cách cung cấp công cụ giúp đơn giản hóa và tăng hiệu suất quá trình thu thập, xử lý dữ liệu của các lực lượng xử lý dữ liệu. Với hệ thống nguồn nhân lực đông đảo và chuyên nghiệp, Dataset mong muốn đưa đến cho đối tác một giải pháp toàn diện và chất lượng, phù hợp với đặc thù của thị trường Việt Nam.
+Sứ mệnh của DATASET là trở thành nền tảng dữ liệu "nguồn lực cộng đồng" tiên phong tại Việt Nam, hỗ trợ các cá nhân, tổ chức trong việc ứng dụng khoa học dữ liệu để giải quyết các bài toán của xã hội. Với nền tảng phần mềm mạnh mẽ và cộng đồng xử lý dữ liệu đông đảo, DATASET mong muốn đưa đến cho đối tác một giải pháp toàn diện và chất lượng, phù hợp với đặc thù của thị trường công nghệ Việt Nam và thế giới.
 
 Website: [Dataset.vn](http://dataset.vn)
 
