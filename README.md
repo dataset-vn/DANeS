@@ -106,8 +106,10 @@ Với loại giấy phép này bạn có thể:
 Tuy nhiên bạn cần phải trích dẫn nguồn gốc của tài liệu này khi mà bạn sử dụng bất kỳ dữ liệu đã được dán nhãn và công bố trong bộ dữ liệu DANeS này.
 
 Nếu bạn cần trích dẫn tới bộ dữ liệu của chúng tôi, xin hãy sử dụng:
-`<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
-Phần dữ liệu được dán nhãn thuộc <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/dataset-vn/DANeS" property="cc:attributionName" rel="cc:attributionURL">DANeS</a> được cấp phép theo <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Giấy phép Creative Commons Ghi công 4.0 Quốc tế</a>.`
+```javascript
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
+Phần dữ liệu được dán nhãn thuộc <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/dataset-vn/DANeS" property="cc:attributionName" rel="cc:attributionURL">DANeS</a> được cấp phép theo <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Giấy phép Creative Commons Ghi công 4.0 Quốc tế</a>.
+```
 
 ## Về chúng tôi
 
