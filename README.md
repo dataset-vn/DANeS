@@ -71,7 +71,7 @@ Dưới đây là ví dụ về định dạng của mỗi bản ghi:
 ## Quy trình dán nhãn
 - Bước 1: Đăng nhập.
 
-![DANeS redo 1](https://user-images.githubusercontent.com/94349957/144919125-6c21c457-4cf0-4a07-82c4-9689ff7d613d.gif)
+![DANeS redo 1 1](https://user-images.githubusercontent.com/94349957/145561330-afc13caf-a8ab-42e4-8896-2acf71957a95.gif)
 
 - Bước 2: Dán nhãn.
 	+ Tiêu đề được phân loại sắc thái: tích cực, tiêu cực, trung tính.
