@@ -98,7 +98,7 @@ Dưới đây là ví dụ về định dạng của mỗi bản ghi:
 ## Bản quyền
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
-Phần dữ liệu được dán nhãn thuộc DANeS được cấp phép theo Giấy phép Quốc tế Creative Commons Attribution 4.0 (CC BY 4.0).
+Phần dữ liệu được dán nhãn thuộc <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/dataset-vn/DANeS" property="cc:attributionName" rel="cc:attributionURL">DANeS</a> được cấp phép theo <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Giấy phép Creative Commons Ghi công 4.0 Quốc tế</a>.
 
 Với loại giấy phép này bạn có thể:
 - Sao chép, chỉnh sửa, phân phối và xây dựng sản phẩm của bạn dựa trên các dữ liệu đã công bố trong dự án này ở bất kì định dạng hoặc bất kỳ phương tiện nào.
