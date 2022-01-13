@@ -75,10 +75,10 @@ Trong một batch, các bản ghi được gán nhãn được lưu trữ dướ
 | ------------ | -----------------------| -------------------------- | -------------------------------------------- |
 | id           | string                 |         none               | id of each instance                          |
 | annotations  | array                  |          id                | id of class belong to specific instance      |
-|                                       |         type               | type of annotation                           |
-|                                       |         value              | value of annotation                          |
-|                                       |        to_name             | type of the value of annotation              |
-|                                       |       from_name            | name of the annotation                       |
+|              |                        |         type               | type of annotation                           |
+|              |                        |         value              | value of annotation                          |
+|              |                        |        to_name             | type of the value of annotation              |
+|              |                        |       from_name            | name of the annotation                       |
 | data         | json                   |text, meta, uri, description| contain raw data info                        |
 
 Dưới đây là ví dụ về định dạng của mỗi bản ghi:
