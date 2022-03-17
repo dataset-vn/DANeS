@@ -1,5 +1,41 @@
 [
     {
+        "id": 785118,
+        "annotations": [
+            {
+                "id": "9BA0yQ86x_",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "UlzhGiMLxQ",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Thế giới",
+                        "Kinh tế",
+                        "Bất động sản"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://thoibaotaichinhvietnam.vn/pages/kinh-doanh/2021-10-01/nha-dau-tu-nuoc-ngoai-danh-gia-cao-tiem-nang-cua-bat-dong-san-nghi-duong-112021.aspx",
+                "description": "Mặc dù kết quả hoạt động của ngành bất động sản nghỉ dưỡng trong hai năm vừa qua gặp nhiều khó khăn nhưng đây vẫn là một ngành có xu hướng phát triển tố nhận được nhiều sự quan tâm của nhà đầu tư trong và ngoài nước."
+            },
+            "text": "Nhà đầu tư nước ngoài đánh giá cao tiềm năng của bất động sản nghỉ dưỡng"
+        }
+    },
+    {
         "id": 785145,
         "annotations": [
             {
@@ -70,10 +106,10 @@
         }
     },
     {
-        "id": 785437,
+        "id": 785503,
         "annotations": [
             {
-                "id": "T-tWMH3TAO",
+                "id": "JxvL5nQxsP",
                 "type": "choices",
                 "value": {
                     "choices": [
@@ -84,13 +120,2253 @@
                 "from_name": "sentiment"
             },
             {
-                "id": "MmpI1wDB6w",
+                "id": "Y8VvJ4fwqR",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://doanhnghiepvn.vn/tin-tuc/danh-gia-khach-quan-toan-dien-tinh-hinh-phong-chong-dich-phat-trien-kt-xh/20211004120348724",
+                "description": "Việc Ban Chấp hành Trung ương xem xét, cho ý kiến chỉ đạo, hoàn thiện các nội dung liên quan đến quan điểm, chủ trương phòng, chống dịch bệnh COVID-19, phát triển kinh tế-xã hội, tài chính - ngân sách Nhà nước, thời điểm thực hiện chính sách cải cách tiền lương năm nay có ý nghĩa quan trọng đặc biệt và cũng hết sức phức tạp."
+            },
+            "text": "Đánh giá khách quan, toàn diện tình hình phòng, chống dịch, phát triển KT-XH"
+        }
+    },
+    {
+        "id": 785502,
+        "annotations": [],
+        "data": {
+            "meta": {
+                "uri": "https://reatimes.vn/thao-go-nut-that-nha-o-cong-nhan-nhin-tu-covid-19-20201224000007167.html",
+                "description": "Dòng người di cư ngược từ TP.HCM về quê để “chạy trốn” Covid-19 và thế tiến thoái lưỡng nan của hàng ngàn công nhân “mắc kẹt” tại vùng dịch đã phơi bày một thực tế rằng, các thành phố lớn chỉ là “cõi tạm của họ."
+            },
+            "text": "Tháo gỡ nút thắt nhà ở công nhân nhin từ Covid-19"
+        }
+    },
+    {
+        "id": 785501,
+        "annotations": [
+            {
+                "id": "SZsbgfptn7",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "hk7NXm7TBq",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://congluan.vn/nghe-an-triet-pha-tu-diem-danh-bac-tam-giu-hinh-su-21-doi-tuong-post159291.html",
+                "description": "Công an tỉnh Nghệ An cho biết, vừa triệt phá chuyên án, bắt quả tang 23 đối tượng về hành vi tổ chức đánh bạc và đánh bạc."
+            },
+            "text": "Nghệ An: Triệt phá tụ điểm đánh bạc tạm giữ hình sự 21 đối tượng"
+        }
+    },
+    {
+        "id": 785500,
+        "annotations": [
+            {
+                "id": "OyCttoN9rn",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "XPPlpO52yg",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Thể thao"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://congluan.vn/timo-werner-can-nhac-kha-nang-roi-chelsea-do-khong-the-canh-tranh-duoc-voi-lukaku-post159272.html",
+                "description": "Romelu Lukaku gia nhập Chelsea khiến Timo Werner dần làm quen nhiều hơn với băng ghế dự bị do đó cầu thủ người Đức đang cân nhắc khả năng rời Chelsea."
+            },
+            "text": "Timo Werner cân nhắc khả năng rời Chelsea do không thể cạnh tranh được với Lukaku"
+        }
+    },
+    {
+        "id": 785499,
+        "annotations": [
+            {
+                "id": "cg1JVGevea",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "5tutnA5jx0",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Phim ảnh"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://congluan.vn/bom-tan-truong-tan-ho-do-ngo-kinh-dong-chinh-lap-ky-luc-phong-ve-post159273.html",
+                "description": "Hồ Trường Tân do Ngô Kinh, Dịch Dương Thiên Tỉ đóng chính công chiếu từ 30/9, tác phẩm hiện thu về 700 triệu nhân dân tệ (108 triệu USD)."
+            },
+            "text": "Bom tấn Trường Tân Hồ do Ngô Kinh đóng chính lập kỷ lục phòng vé"
+        }
+    },
+    {
+        "id": 785498,
+        "annotations": [
+            {
+                "id": "lVd8WHiTxt",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "xaeyed_xxB",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://baotintuc.vn/thi-truong-tai-chinh/vnindex-duy-tri-sac-xanh-nho-dong-tien-lan-toa-o-nhom-co-phieu-vua-va-nho-20211004112100618.htm",
+                "description": ""
+            },
+            "text": "VN-Index duy trì sắc xanh nhờ dòng tiền lan tỏa ở nhóm cổ phiếu vừa và nhỏ"
+        }
+    },
+    {
+        "id": 785497,
+        "annotations": [
+            {
+                "id": "4sh9AAQxAY",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "wdva9BStUX",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Xã hội"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/nhieu-tiem-sua-xe-may-o-tphcm-bi-dung-hoat-dong-post1267805.html",
+                "description": "Sáng 1/10, nhiều tiệm sửa xe máy tại quận 1 tất bật hoạt động trở lại, tuy nhiên cơ quan chức năng địa phương yêu cầu tạm dừng vì UBND TP chưa có văn bản chỉ đạo chính thức."
+            },
+            "text": "Nhiều tiệm sửa xe máy ở TP.HCM bị dừng hoạt động"
+        }
+    },
+    {
+        "id": 785496,
+        "annotations": [
+            {
+                "id": "4Zn2e6tfPR",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "w1oRkI5Wh_",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Đời sống",
+                        "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/nguoi-bi-gout-nen-an-gi-post1266828.html",
+                "description": "Đằng sau những chế độ ăn với mục đích \"giảm cân cấp tốc\" là những nguy hiểm tiềm tàng."
+            },
+            "text": "Người bị gout nên ăn gì?"
+        }
+    },
+    {
+        "id": 785495,
+        "annotations": [
+            {
+                "id": "vS-XMye7pI",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "4AzU6Frd1B",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Văn hoá",
+                        "Xã hội"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/hang-tram-nguoi-dung-trai-cuoi-tuan-ben-bo-song-hong-post1268272.html",
+                "description": "Trong buổi cuối tuần đầu tiên kể từ khi Hà Nội cho phép thể dục ngoài trời, nhiều người mang theo lều trại, thậm chí có cả dù lượn ra bãi đất trống gần chân cầu Vĩnh Tuy vui chơi."
+            },
+            "text": "Hàng trăm người dựng trại cuối tuần bên bờ sông Hồng"
+        }
+    },
+    {
+        "id": 785494,
+        "annotations": [
+            {
+                "id": "yREjDOSHfR",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tiêu cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "fKkt3k2Egp",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://cafef.vn/ifc-doanh-nghiep-nho-doanh-nghiep-san-xuat-co-nhung-cu-soc-doanh-thu-nghiem-trong-2021092309011526.chn",
+                "description": "Gần 1/4 số doanh nghiệp có số giờ hoạt động giảm và doanh số giảm khoảng 36% so với cùng kỳ năm ngoái. Số lượng việc làm thấp hơn đáng kể so với mức tháng 1 năm 2020."
+            },
+            "text": "IFC: Doanh nghiệp nhỏ, doanh nghiệp sản xuất có những cú sốc doanh thu nghiêm trọng"
+        }
+    },
+    {
+        "id": 785493,
+        "annotations": [
+            {
+                "id": "wFvzWTyxkG",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Chứng khoán"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            },
+            {
+                "id": "Ww1lQpj7pP",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tiêu cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://cafef.vn/yeah1-yeg-tiep-tuc-duy-tri-dien-kiem-soat-do-thua-lo-co-phieu-giam-60-tu-dau-nam-20210923084848829.chn",
+                "description": "Hiện, bà Trần Uyên Phương - ái nữ nhà Tân Hiệp Phát - đã giảm tỷ lệ sở hữu tại Yeah1 xuống còn 14,5% vốn. Từng chi 50.000 đồng/cp để trở thành cổ đông lớn tại YEG, hiện thị giá Công ty trên thị trường đã \"bay hơi\" 70% xuống mức 15.000 đồng/cp."
+            },
+            "text": "Yeah1 (YEG): Tiếp tục duy trì diện kiểm soát do thua lỗ, cổ phiếu giảm 60% từ đầu năm"
+        }
+    },
+    {
+        "id": 785492,
+        "annotations": [
+            {
+                "id": "-PE3EgKTal",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "f5A_W1wjr1",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Thế giới",
+                        "Kinh tế",
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/tiet-lo-ve-khoi-tai-san-100-trieu-usd-cua-quoc-vuong-jordan-post1268287.html",
+                "description": "Hồ sơ Pandora tiết lộ Vua Jordan Abdullah II đã tích lũy khối tài sản trị giá 100 triệu USD một cách bí mật trong thời kỳ nước này \"thắt lưng buộc bụng\"."
+            },
+            "text": "Tiết lộ về khối tài sản 100 triệu USD của quốc vương Jordan"
+        }
+    },
+    {
+        "id": 785491,
+        "annotations": [
+            {
+                "id": "r23TjBJ4-U",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "uEZ3JvjV-r",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Giải trí",
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/video-nha-hang-phuc-vu-bua-tiec-21-trieu-dong-tan-nha-o-tphcm-post1268275.html",
+                "description": "Để thích nghi với tình hình mới, một nhà hàng cao cấp ở Thảo Điền (TP.HCM) phục vụ các món bán mang về và nhận làm tiệc tại gia dưới 10 người."
+            },
+            "text": "Nhà hàng phục vụ bữa tiệc 21 triệu đồng tận nhà ở TP.HCM"
+        }
+    },
+    {
+        "id": 785490,
+        "annotations": [
+            {
+                "id": "fAhj0m467y",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "PRi8AOQOs_",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Thế giới",
+                        "Chính trị",
+                        "Kinh tế",
+                        "Pháp luật",
+                        "Hóng biến"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/vi-sao-ho-so-pandora-gay-chan-dong-post1268324.html",
+                "description": "Bằng cách vén màn che phủ những tài sản bí mật của giới quyền lực và giàu có, Hồ sơ Pandora đặt ra câu hỏi xác đáng về sự cân bằng giữa quyền riêng tư, bảo mật và lợi ích công."
+            },
+            "text": "Vì sao Hồ sơ Pandora gây chấn động?"
+        }
+    },
+    {
+        "id": 785489,
+        "annotations": [
+            {
+                "id": "x3h5_N-vRB",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "sgqso5X05z",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Công nghệ",
+                        "Pháp luật",
+                        "Hóng biến"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/hacker-nham-hoang-khang-bi-bat-post1268363.html",
+                "description": "Nhâm Hoàng Khang bị cáo buộc xâm nhập vào mạng máy tính của một số cá nhân và tống tiền khoảng 400 triệu đồng."
+            },
+            "text": "Hacker Nhâm Hoàng Khang bị bắt"
+        }
+    },
+    {
+        "id": 785488,
+        "annotations": [
+            {
+                "id": "cf1c_da7Fq",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "ZJRCElMkmq",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Covid-19",
+                        "Du lịch"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/bac-giang-mo-cua-du-lich-cho-khach-vung-xanh-post1268404.html",
+                "description": "Nhờ kiểm soát tốt dịch Covid-19 trên địa bàn tỉnh, Bắc Giang tính đến các phương án mở cửa du lịch, khôi phục kinh tế."
+            },
+            "text": "Bắc Giang mở cửa du lịch cho khách vùng xanh"
+        }
+    },
+    {
+        "id": 785487,
+        "annotations": [
+            {
+                "id": "k7LWyetBhB",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tiêu cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "ixq7UtHQyM",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Pháp luật",
+                        "Xã hội",
+                        "Hóng biến"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/vua-mo-cua-tiem-toc-o-15-phuong-cua-tp-thu-duc-phai-tam-ngung-post1268341.html",
+                "description": "Thuộc vùng dịch cấp độ 3 (vùng cam) nên hàng loạt tiệm cắt tóc, phòng gym, trung tâm thương mại,... thuộc 15 phường của TP Thủ Đức (TP.HCM) phải tạm ngừng hoạt động."
+            },
+            "text": "Vừa mở cửa, tiệm tóc ở 15 phường của TP Thủ Đức phải tạm ngừng"
+        }
+    },
+    {
+        "id": 785486,
+        "annotations": [
+            {
+                "id": "iw_XEbkjbe",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "vYoIr1oEor",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Công nghệ",
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/dat-mon-online-khong-thich-bang-xep-hang-mua-tai-quan-post1268301.html",
+                "description": "Những ngày đầu nới lỏng giãn cách, nhiều bạn trẻ chọn ra khỏi nhà, dạo phố, mua đồ ăn mang về. Tuy nhiên, đa số vẫn giữ tâm lý e dè vì dịch bệnh còn diễn biến phức tạp."
+            },
+            "text": "Đặt món online không thích bằng xếp hàng mua tại quán"
+        }
+    },
+    {
+        "id": 785485,
+        "annotations": [
+            {
+                "id": "3JjjyIib4P",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "A9vzD9BWpS",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/nhung-nguoi-am-anh-voi-may-man-post1268041.html",
+                "description": "Từ cổng lên máy bay, trên bàn đánh bài hay trước các kỳ thi, yếu tố may mắn luôn được người Trung Quốc quan tâm đặc biệt."
+            },
+            "text": "Những người ám ảnh với may mắn"
+        }
+    },
+    {
+        "id": 785484,
+        "annotations": [
+            {
+                "id": "LPdvGPF23Y",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "-Ovq7_g7FX",
                 "type": "choices",
                 "value": {
                     "choices": [
                         "Kinh tế",
-                        "Văn hoá",
+                        "Đời sống",
+                        "Covid-19"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://news.zing.vn/nhieu-quan-tren-duong-phan-xich-long-mo-ban-lai-diu-hiu-thuc-khach-post1268282.html",
+                "description": "Trái với vẻ sầm uất trước mùa dịch, \"con phố ẩm thực\" Phan Xích Long trở nên vắng vẻ vì thiếu thực khách. Một số hàng quán vẫn đóng cửa chờ thông báo mới."
+            },
+            "text": "Nhiều quán trên đường Phan Xích Long mở bán lại, đìu hiu thực khách"
+        }
+    },
+    {
+        "id": 785483,
+        "annotations": [
+            {
+                "id": "mP5Td_enkA",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tiêu cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "aY7GsijwF9",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Thế giới",
+                        "Xã hội"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://vietnamdaily.trithuccuocsong.vn/tieu-dung-ban-doc/dau-hieu-trai-dat-sap-co-tham-hoa-tuyet-chung-toi-te-nhat-lich-su-122504.html",
+                "description": "Các nghiên cứu mới đây cho thấy Trái đất đang có dấu hiệu sắp xảy ra những thảm họa sinh thái mà nguyên nhân từ con người, so sánh được với những sự kiện tuyệt chủng đã từng xảy ra trên Trái Đất."
+            },
+            "text": "Dấu hiệu trái đất sắp có thảm họa tuyệt chủng tồi tệ nhất lịch sử?"
+        }
+    },
+    {
+        "id": 785482,
+        "annotations": [
+            {
+                "id": "kcRSg1rX58",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "LmgR45o4Gh",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Thế giới",
+                        "Công nghệ",
+                        "Khoa học"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://vietnamdaily.trithuccuocsong.vn/vietnamdaily-relax/bi-mat-duoc-he-lo-khi-chup-cat-lop-xac-uop-pharaoh-ai-cap-122515.html",
+                "description": "Khi tiến hành chụp cắt lớp thi hài Ramesses III, các chuyên gia có phát hiện bất ngờ về cái chết của pharaoh nổi tiếng Ai Cập này. Bí mật về nguyên nhân tử vong của ông được che giấu một cách tỉ mỉ nhờ phần băng gạc quấn quanh cổ."
+            },
+            "text": "Bí mật được hé lộ khi chụp cắt lớp xác ướp pharaoh Ai Cập"
+        }
+    },
+    {
+        "id": 785481,
+        "annotations": [
+            {
+                "id": "dHTr1kNRAT",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "kOMFq5HUMx",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế",
+                        "Chứng khoán"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://vietnamdaily.trithuccuocsong.vn/tai-chinh-ngan-hang/chung-khoan-ngay-309-co-phieu-nao-nen-chu-y-122502.html",
+                "description": "Một số mã cổ phiếu nhà đầu tư cần chú ý trước phiên giao dịch 30/9."
+            },
+            "text": "Chứng khoán ngày 30/9: Cổ phiếu nào nên chú ý?"
+        }
+    },
+    {
+        "id": 785480,
+        "annotations": [
+            {
+                "id": "9es8TzTjsl",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "Emv3hd3IYT",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Thế giới",
+                        "Công nghệ",
+                        "Covid-19",
                         "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://tinnhanhchungkhoan.vn/trung-quoc-phat-trien-cong-nghe-phat-hien-nguy-co-mac-covid-19-qua-kiem-tra-mat-post281540.html",
+                "description": "Theo truyền thông Trung Quốc, Đại học Phúc Đán của nước này đã phối hợp với một số tổ chức trong và ngoài nước phát triển công nghệ có thể phát hiện nguy cơ mắc Covid-19 qua kiểm tra mắt chỉ trong vòng 3 giây."
+            },
+            "text": "Trung Quốc phát triển công nghệ phát hiện nguy cơ mắc Covid-19 qua kiểm tra mắt"
+        }
+    },
+    {
+        "id": 785479,
+        "annotations": [
+            {
+                "id": "kOtPt2wLr-",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "Qpsky5WO6h",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế",
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://tinnhanhchungkhoan.vn/nguoi-lao-dong-can-phai-lam-gi-de-co-the-duoc-nhan-ho-tro-tu-quy-bao-hiem-that-nghiep-post281524.html",
+                "description": "(ĐTCK) Bảo hiểm xã hội Việt Nam đã có văn bản hướng dẫn người lao động và người sử dụng lao động bị ảnh hưởng bởi đại dịch Covid-19 nhận hỗ trợ từ Quỹ bảo hiểm thất nghiệp theo quyết định số 28/2021/QĐ-TTg của Thủ tướng Chính phủ"
+            },
+            "text": "Người lao động cần phải làm gì để có thể được nhận hỗ trợ từ Quỹ bảo hiểm thất nghiệp?"
+        }
+    },
+    {
+        "id": 785478,
+        "annotations": [
+            {
+                "id": "rfwNoHtTKM",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "lR5dOaR-3n",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Thế giới",
+                        "Chính trị"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://tinnhanhchungkhoan.vn/tan-thu-tuong-nhat-ban-fumio-kishida-cong-bo-thanh-phan-noi-cac-moi-post281537.html",
+                "description": "Trong các gương mặt mới, có ông Hirokazu Matsuno, người từng giữ chức Bộ trưởng Giáo dục, Văn hóa, Thể thao, Khoa học và Công nghệ nay là Chánh Văn phòng Nội các - vị trí quan trọng thứ 2 của nội các."
+            },
+            "text": "Tân Thủ tướng Nhật Bản Fumio Kishida công bố thành phần nội các mới"
+        }
+    },
+    {
+        "id": 785477,
+        "annotations": [
+            {
+                "id": "hlSpwXVrZV",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "K8ofb89rI4",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Covid-19",
+                        "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://thanhtra.com.vn/xa-hoi/doi-song/khan-truong-bo-sung-them-khu-cach-ly-ho-tro-nguoi-dan-duoc-cach-ly-tai-gia-dinh-188749.html",
+                "description": "(Thanh tra) - Tối ngày 3 10, thông tin từ UBND tỉnh Cà Mau cho biết, trước tình hình người dân từ TP HCM, Đồng Nai, Bình Dương, Long An… trở về tỉnh với số lượng lớn, qua xét nghiệm đã phát hiện nhiều trường hợp dương tính với SAR-CoV-2, Chủ tịch UBND tỉnh đã có chỉ đạo triển khai ngay các biện pháp phòng, chống dịch Covid-19."
+            },
+            "text": "Khẩn trương bổ sung thêm khu cách ly, hỗ trợ người dân được cách ly tại gia đình"
+        }
+    },
+    {
+        "id": 785476,
+        "annotations": [
+            {
+                "id": "7QY98391BV",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tiêu cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "hfzRyXsIcr",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Văn hoá",
+                        "Pháp luật",
+                        "Du lịch"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://thanhtra.com.vn/phap-luat/an-ninh-trat-tu/ha-noi-phat-hien-nha-xe-cho-khach-chui-188744.html",
+                "description": "(Thanh tra) - Đội Cảnh sát giao thông (CSGT) số 6 Công an TP Hà Nội vừa phát hiện và xử lý xe khách chở 10 người đều không xuất trình được giấy xét nghiệm âm tính với Covid-19 ra khỏi TP."
+            },
+            "text": "Hà Nội: Phát hiện nhà xe chở khách “chui”"
+        }
+    },
+    {
+        "id": 785475,
+        "annotations": [
+            {
+                "id": "sidbGbGPTT",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "pzGo3eiwB7",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Xã hội",
+                        "Covid-19"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://thanhtra.com.vn/xa-hoi/y-te/dao-tao-y-te-cap-xa-biet-lay-mau-xet-nghiem-sars-cov-2-188754.html",
+                "description": "(Thanh tra) - Ngày 4 10, ông Trần Quốc Nam, Chủ tịch UBND tỉnh Ninh Thuận đã có ý kiến chỉ đạo về tăng cường đội ngũ tham gia lấy mẫu xét nghiệm SARS-CoV-2. Theo đó, UBND tỉnh Ninh Thuận yêu cầu cần đào tạo 100% nhân viên y tế cấp xã biết lấy mẫu xét nghiệm SARS-CoV-2."
+            },
+            "text": "Đào tạo y tế cấp xã biết lấy mẫu xét nghiệm SARS-CoV-2"
+        }
+    },
+    {
+        "id": 785474,
+        "annotations": [
+            {
+                "id": "-SqLJr7SF9",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "V9EUAIoJdH",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://chatluongvacuocsong.vn/tin-vui-cho-xuat-khau-go-viet-nam-d90781.html",
+                "description": "Việt Nam và Hoa Kỳ ký kết thỏa thuận về kiểm soát khai thác và thương mại gỗ bất hợp pháp, Hoa Kỳ khép lại vụ điều tra, không gây bất lợi cho xuất khẩu gỗ Việt Nam."
+            },
+            "text": "Tin vui cho xuất khẩu gỗ Việt Nam"
+        }
+    },
+    {
+        "id": 785473,
+        "annotations": [
+            {
+                "id": "b9bmzHU1cV",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "IYumf0JOfE",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Covid-19"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://baovemoitruong.org.vn/nghien-cuu-cho-thay-bang-chung-moi-ve-nguon-goc-covid-19/",
+                "description": ""
+            },
+            "text": "Nghiên cứu cho thấy bằng chứng mới về nguồn gốc COVID-19"
+        }
+    },
+    {
+        "id": 785472,
+        "annotations": [
+            {
+                "id": "fWoKbR7Yu3",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "1tUcfvM3t7",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Không xác định"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://video.baocamau.com.vn/furl?id=14780",
+                "description": "-9 tháng, tổng mức bán lẻ, doanh thu dịch vụ tiêu dùng đạt hơn 47.000 tỷ đồng \r\n-Xây dựng phương án học tập tuần 4, năm học 2021-2022 \r\n-Trao tiền hỗ trợ tăng cường dinh dưỡng cho đội ngũ y tế tuyến đầu \r\n-Chung sức xây dựng nông thôn mới \r\n-Huyện Ngọc Hiển: Cầu đường xuống cấp, người dân đi lại khó khăn \r\n-Kiểm soát vận tải trên tuyến đường thuỷ nội địa phòng dịch Covid-19"
+            },
+            "text": "Bản tin báo Cà Mau điện tử, ngày 1 tháng 10 năm 2021"
+        }
+    },
+    {
+        "id": 785471,
+        "annotations": [
+            {
+                "id": "hFdggN6z0J",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "zILQ_lDadd",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Pháp luật"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://video.baocamau.com.vn/furl?id=14781",
+                "description": "(CMO) Bằng các biện pháp nắm tình hình và quản lý địa bàn, vào trưa 1/10, Đội Cảnh sát hình sự, Công an TP. Cà Mau phối hợp cùng Công an xã Lý Văn Lâm đã bắt quả tang nhiều đối tượng đang tham gia đánh bạc ăn tiền tại quán Miệt Vườn, thuộc ấp Thạnh Điền, xã Lý Văn Lâm."
+            },
+            "text": "Bắt quả tang 11 đối tượng lắc tài xỉu"
+        }
+    },
+    {
+        "id": 785470,
+        "annotations": [
+            {
+                "id": "34rZAgIPv6",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tiêu cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "EviNbP61ut",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Văn hoá",
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://phunu.nld.com.vn/chuyen-trang-phu-nu/he-co-bien-chong-lai-tang-hinh-2021093022375277.htm",
+                "description": "Anh sẵn sàng xuất hiện bên vợ mọi lúc vợ cần, sẵn sàng nghỉ làm nếu vợ bị ốm. Thế nhưng, cứ hễ tôi rơi vào tình huống nguy cấp theo kiểu “không gọi anh thì..."
+            },
+            "text": "Hễ có biến, chồng lại “tàng hình”"
+        }
+    },
+    {
+        "id": 785469,
+        "annotations": [
+            {
+                "id": "HaFHRbHYiy",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "bIBWWrwv-7",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Thế giới",
+                        "Công nghệ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://phunu.nld.com.vn/chuyen-trang-phu-nu/dubai-thu-nghiem-dich-vu-taxi-khong-nguoi-lai-20210920143226473.htm",
+                "description": "Tuần này, nhân triển lãm thương mại điện tử dân dụng thường niên Gitex, Cơ quan quản lý giao thông đường bộ của Dubai (RTA) đã ra mắt dịch vụ taxi không..."
+            },
+            "text": "Dubai thử nghiệm dịch vụ taxi không người lái"
+        }
+    },
+    {
+        "id": 785468,
+        "annotations": [
+            {
+                "id": "RpJldHJ_iR",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "WanNE9xqAC",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Văn hoá"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://baoquankhu4.com.vn/hau-phuong-quan-doi/doi-song-hau-phuong/dang-huong-tuong-niem-13-liet-si-hy-sinh-tai-thuy-dien-rao-t.html",
+                "description": "Sáng ngày 3/10/2021 (nhằm ngày 27/8 âm lịch), Đoàn công tác Bộ Tư lệnh Quân khu 4 và Ủy ban Nhân dân tỉnh Thừa Thiên Huế đã tổ ..."
+            },
+            "text": "Dâng hương tưởng niệm 13 liệt sĩ hy sinh khi làm nhiệm vụ tìm kiếm, cứu nạn tại Nhà máy Thủy điện Rào Trăng 3"
+        }
+    },
+    {
+        "id": 785467,
+        "annotations": [
+            {
+                "id": "ItIdIUe2r4",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "uegIeuNNIH",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế",
+                        "Văn hoá"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://baoquocte.vn/he-thong-lees-sandwiches-cung-nguoi-viet-tai-my-quyen-gop-ung-ho-tp-ho-chi-minh-160607.html",
+                "description": "Hệ thống Lee’s Sandwiches đã phát động chương trình thiện nguyện nhằm hỗ trợ người dân TP. Hồ Chí Minh vượt qua đại dịch."
+            },
+            "text": "Hệ thống Lee’s Sandwiches cùng người Việt tại Mỹ quyên góp ủng hộ TP. Hồ Chí Minh"
+        }
+    },
+    {
+        "id": 785466,
+        "annotations": [],
+        "data": {
+            "meta": {
+                "uri": "https://baoquocte.vn/binh-an-ke-vao-vai-ban-nhi-trong-11-thang-5-ngay-dong-cap-dien-vien-nu-deu-bao-cao-nguoi-yeu-a-hau-160613.html",
+                "description": "Bình An sẽ tranh giành Khả Ngân với Thanh Sơn và hé lộ, không nhẹ nhàng như 'Yêu hơn cả bầu trời' mà trong '11 tháng 5 ngày' sẽ có cả ẩu đả."
+            },
+            "text": "Bình An kể vào vai bạn Nhi trong '11 tháng 5 ngày', đóng cặp diễn viên nữ đều... 'báo cáo' người yêu Á hậu"
+        }
+    },
+    {
+        "id": 785465,
+        "annotations": [
+            {
+                "id": "QCSjQqoEz8",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "OeIj2lOe70",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Văn hoá",
+                        "Covid-19",
+                        "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://www.baovinhlong.com.vn/xa-hoi/202110/tuan-thu-5k-de-den-binh-thuong-moi-3081950/",
+                "description": "Bắt đầu từ 0 giờ ngày 1/10 đến 15/10/2021 Vĩnh Long áp dụng các biện pháp phòng chống dịch COVID-19 theo Chỉ thị 19 của Thủ tướng Chính phủ (trừ các địa bàn, khu vực còn đang thực hiện phong tỏa để phòng chống dịch). Cuộc sống bình thường mới đang dần trở lại, niềm phấn khởi như hiện rõ trên gương mặt mỗi người. Báo Vĩnh Long online, Cơ quan của Đảng Bộ, chính quyền và nhân dân tỉnh Vĩnh Long. Tiếng nói của đảng bộ và nhân dân Vĩnh Long."
+            },
+            "text": "Tuân thủ \"5K\" để đến \"bình thường mới\""
+        }
+    },
+    {
+        "id": 785464,
+        "annotations": [
+            {
+                "id": "QDwhggDc1l",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Covid-19",
+                        "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            },
+            {
+                "id": "32rIk4eP8I",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://www.baovinhlong.com.vn/infographics/202110/infographic-thong-tin-covid-19-ngay-310-tai-vinh-long-3081978/",
+                "description": "Thông tin COVID-19 ngày 3/10 tại Vĩnh Long Báo Vĩnh Long online, Cơ quan của Đảng Bộ, chính quyền và nhân dân tỉnh Vĩnh Long. Tiếng nói của đảng bộ và nhân dân Vĩnh Long."
+            },
+            "text": "[Infographic]: Thông tin COVID-19 ngày 3/10 tại Vĩnh Long"
+        }
+    },
+    {
+        "id": 785463,
+        "annotations": [
+            {
+                "id": "1O8ENJoyee",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "OVodiQPO6B",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Covid-19",
+                        "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://www.baovinhlong.com.vn/xa-hoi/y-te/202110/thong-tin-ve-tinh-hinh-dich-covid-19-tai-vinh-long-ngay-310-3081979/",
+                "description": "Ngày 3/10/2021, Vĩnh Long ghi nhận 4 trường hợp nghi mắc COVID-19 đều là F1 được cách ly trước đó tại TTYT Nguyễn Văn Thủ, huyện Vũng Liêm. Báo Vĩnh Long online, Cơ quan của Đảng Bộ, chính quyền và nhân dân tỉnh Vĩnh Long. Tiếng nói của đảng bộ và nhân dân Vĩnh Long."
+            },
+            "text": "Thông tin về tình hình dịch COVID-19 tại Vĩnh Long ngày 3/10"
+        }
+    },
+    {
+        "id": 785462,
+        "annotations": [
+            {
+                "id": "5zI_X8azQR",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "5IM5ZVX75m",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Covid-19",
+                        "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://www.baovinhlong.com.vn/quoc-te/202110/thuoc-vien-dieu-tri-covid-dau-tien-co-the-giam-mot-nua-nguy-co-nhap-vien-3081988/",
+                "description": "Kết quả thử nghiệm lâm sàng tạm thời cho thấy một loại thuốc viên kháng virus có khả năng giúp giảm nguy cơ nhập viện hoặc tử vong của người nhiễm Covid-19 khoảng 50%. Báo Vĩnh Long online, Cơ quan của Đảng Bộ, chính quyền và nhân dân tỉnh Vĩnh Long. Tiếng nói của đảng bộ và nhân dân Vĩnh Long."
+            },
+            "text": "Thuốc viên điều trị Covid đầu tiên có thể giảm một nửa nguy cơ nhập viện"
+        }
+    },
+    {
+        "id": 785461,
+        "annotations": [
+            {
+                "id": "_G6gheiro8",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "ZPUvm_YkTt",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Đời sống",
+                        "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://www.baovinhlong.com.vn/giai-tri/am-thuc/202110/muon-nau-chao-vit-dau-xanh-khong-hoi-thom-ngon-bo-duong-dung-bo-qua-bi-quyet-nay-3082109/",
+                "description": "Bát cháo vịt đậu xanh ngọt bùi, thưởng thức khi còn nóng hổi kèm theo dĩa gỏi thêm chút nước mắm gừng rất ngon miệng. Báo Vĩnh Long online, Cơ quan của Đảng Bộ, chính quyền và nhân dân tỉnh Vĩnh Long. Tiếng nói của đảng bộ và nhân dân Vĩnh Long."
+            },
+            "text": "Muốn nấu cháo vịt đậu xanh không hôi, thơm ngon bổ dưỡng, đừng bỏ qua bí quyết này"
+        }
+    },
+    {
+        "id": 785460,
+        "annotations": [
+            {
+                "id": "LX6ZQugSsc",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "KkDYvIbvHG",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://dangcongsan.vn/kinh-te/dua-chinh-sach-ho-tro-doanh-nghiep-phat-huy-hieu-qua-trong-thuc-tien-592711.html",
+                "description": "(ĐCSVN) – Các chính sách cơ cấu nợ, miễn giảm lãi, phí đã giúp nhiều doanh nghiệp giảm nghĩa vụ tài chính, tăng khả năng tiếp cận vốn, giảm áp lực trích lập dự phòng rủi ro cho ngân hàng. Tuy nhiên, theo nhìn nhận một cách thực tế từ các chuyên gia, tỷ lệ thụ hưởng các chính sách hỗ trợ của doanh nghiệp còn rất hạn chế, nhiều chính sách ban hành..."
+            },
+            "text": "Đưa chính sách hỗ trợ doanh nghiệp phát huy hiệu quả trong thực tiễn"
+        }
+    },
+    {
+        "id": 785459,
+        "annotations": [
+            {
+                "id": "iY6aRgOIPV",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "_Q_869IJix",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://dangcongsan.vn/kinh-te/xuat-khau-nong-lam-thuy-san-uoc-dat-35-5-ty-usd-trong-9-thang-592710.html",
+                "description": "(ĐCSVN) - 9 tháng năm 2021, kim ngạch xuất khẩu nông, lâm, thủy sản ước đạt 35,5 tỷ USD, tăng 17,7% so với cùng kỳ năm trước. Trong đó, xuất khẩu nhóm nông sản chính ước đạt trên 15,8 tỷ USD, tăng 14,4%; lâm sản chính đạt khoảng 11,97 tỷ USD, tăng 31,6%,…"
+            },
+            "text": "Xuất khẩu nông lâm thủy sản ước đạt 35,5 tỷ USD trong 9 tháng"
+        }
+    },
+    {
+        "id": 785458,
+        "annotations": [
+            {
+                "id": "_LcB_ZASO3",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "9CWVJGcXcA",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế",
+                        "Công nghệ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://dangcongsan.vn/kinh-te/ha-noi-day-manh-ban-hang-nong-san-theo-phuong-thuc-cho-dem-tren-may-592705.html",
+                "description": "(ĐCSVN) - Sự kiện này được tổ chức nhằm thực hiện Chương trình chuyển đổi số của Chính phủ và UBND thành phố Hà Nội để hỗ trợ các học viên là các chủ thể OCOP và nông sản thực phẩm an toàn, đặc sản vùng miền được học tập, trao đổi kinh nghiệm kỹ năng livetream bán hàng trên nền tảng số."
+            },
+            "text": "Hà Nội đẩy mạnh bán hàng nông sản theo phương thức “Chợ đêm trên mây”"
+        }
+    },
+    {
+        "id": 785457,
+        "annotations": [
+            {
+                "id": "2cr4QZW7UD",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "gsK260kXAl",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Văn hoá",
+                        "Giáo dục"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://daibieunhandan.vn/nganh-giao-duc-ha-noi-quyen-gop-ung-ho-chuong-trinh-song-va-may-tinh-cho-em-va-trao-ho-tro-dot-2-nam-hoc-2021-2022-vnt3oyvgf1-64028",
+                "description": ""
+            },
+            "text": "Ngành Giáo dục Hà Nội quyên góp ủng hộ chương trình “Sóng và máy tính cho em” và trao hỗ trợ đợt 2 năm học 20212022"
+        }
+    },
+    {
+        "id": 785456,
+        "annotations": [
+            {
+                "id": "R0Ex9jrmqv",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "f9_fOu0HNg",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Phim ảnh"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://vtv.vn/video/vtv-ket-noi-phim-mat-na-guong-523919.htm",
+                "description": "VTV kết nối: Phim \"Mặt nạ gương\"."
+            },
+            "text": "VTV kết nối: Phim \"Mặt nạ gương\" - Video đã phát trên VTV1"
+        }
+    },
+    {
+        "id": 785455,
+        "annotations": [
+            {
+                "id": "wEWkW_AjNl",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tiêu cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "HaT52lWSsg",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://vtv.vn/truyen-hinh/hay-yeu-nhau-di-so-5-me-chong-quoc-dan-lan-huong-ke-chuyen-song-gio-hon-nhan-da-tung-roi-nuoc-mat-20211002173621164.htm",
+                "description": "VTV.vn - NSND Lan Hương - \"mẹ chồng quốc dân\" của Sống chung với mẹ chồng - sẽ cùng chồng xuất hiện tại Hãy yêu nhau đi số thứ 5."
+            },
+            "text": "Hãy yêu nhau đi số 5: \"Mẹ chồng quốc dân\" Lan Hương kể chuyện sóng gió hôn nhân, đã từng rơi nước mắt"
+        }
+    },
+    {
+        "id": 785454,
+        "annotations": [
+            {
+                "id": "qXwxVS-fLM",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tiêu cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "LEYq7tMXrG",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Pháp luật",
+                        "Xã hội",
+                        "Hóng biến"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://vtv.vn/phap-luat/thu-doan-chiem-doat-tai-san-cua-bang-nhom-con-do-duoi-hinh-thuc-cho-thue-xe-20211002182715916.htm",
+                "description": "VTV.vn - Lực lượng chức năng vừa triệt phá một ổ nhóm tội phạm núp dưới vỏ bọc là doanh nghiệp với thủ đoạn hoạt động hết sức tinh vi."
+            },
+            "text": "Thủ đoạn chiếm đoạt tài sản của băng nhóm côn đồ dưới hình thức cho thuê xe"
+        }
+    },
+    {
+        "id": 785453,
+        "annotations": [
+            {
+                "id": "F7akd7cGpV",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "BiiU45zliK",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Không xác định"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://vtv.vn/video/nhat-ky-nguoi-viet-02-10-2021-523915.htm",
+                "description": "Nhật ký người Việt - 02/10/2021."
+            },
+            "text": "Nhật ký người Việt - 02/10/2021 - Video đã phát trên VTV1"
+        }
+    },
+    {
+        "id": 785452,
+        "annotations": [
+            {
+                "id": "4zcP4Yi_jG",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "wbrerkrA5E",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Pháp luật"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://vtv.vn/phap-luat/triet-pha-lien-tiep-3-duong-day-van-chuyen-ma-tuy-trong-1-ngay-2021100218194398.htm",
+                "description": "VTV.vn - Chỉ trong vòng 1 ngày, lực lượng chức năng đã triệt phá 3 đường dây vận chuyển ma túy lớn."
+            },
+            "text": "Triệt phá liên tiếp 3 đường dây vận chuyển ma túy trong 1 ngày"
+        }
+    },
+    {
+        "id": 785451,
+        "annotations": [
+            {
+                "id": "IZIGgxGBPG",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "PAEM76ynuU",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://vtv.vn/the-gioi/venezuela-tien-hanh-doi-tien-de-doi-pho-voi-sieu-lam-phat-20211002161603971.htm",
+                "description": "VTV.vn - Hôm qua, Venezuela đã tiến hành đổi tiền lần thứ hai trong vòng ba năm."
+            },
+            "text": "Venezuela tiến hành đổi tiền, đối phó với siêu lạm phát"
+        }
+    },
+    {
+        "id": 785450,
+        "annotations": [
+            {
+                "id": "VpK7IiRfDf",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "cEIMn3xxQv",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Đời sống",
+                        "Xã hội"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://baohatinh.vn/xa-hoi/ho-tro-gan-1-000-cong-dan-tu-cac-tinh-mien-nam-di-xe-may-ve-qua-ha-tinh/220297.htm",
+                "description": "Các lực lượng chức năng tỉnh Hà Tĩnh đã tổ chức phân luồng, dẹp đường; hỗ trợ nước uống, đồ ăn… cho các công dân đi xe máy từ TP Hồ Chí Minh và các tỉnh phía Nam về và qua địa bàn đảm bảo an toàn giao thông, phòng chống dịch bệnh."
+            },
+            "text": "Hỗ trợ gần 1.000 công dân từ các tỉnh miền Nam đi xe máy về/qua Hà Tĩnh"
+        }
+    },
+    {
+        "id": 785449,
+        "annotations": [
+            {
+                "id": "oVmPYeloN9",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tiêu cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "H-lXNUVDWu",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Văn hoá",
+                        "Công nghệ",
+                        "Đời sống",
+                        "Xã hội"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://baohatinh.vn/phap-luat-doi-song/toi-pham-lua-dao-tren-khong-gian-mang-dien-bien-phuc-tap-khi-co-dich/220310.htm",
+                "description": "Trước những tác động của dịch cùng những khó khăn về kinh tế-xã hội, chỉ từ 25/5/2020 đến 24/5/2021, toàn quốc phát hiện hơn 5.400 vụ lừa đảo chiếm đoạt tài sản với số tiền hàng nghìn tỷ đồng."
+            },
+            "text": "Tội phạm lừa đảo trên không gian mạng diễn biến phức tạp khi có dịch"
+        }
+    },
+    {
+        "id": 785448,
+        "annotations": [
+            {
+                "id": "4xfEIMeg06",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://baohatinh.vn/nong-nghiep/vu-quang-trong-thi-diem-hon-2-ha-giong-na-dai-loan/220300.htm",
+                "description": "Huyện Vũ Quang (Hà Tĩnh) vừa trồng thí điểm hơn 2 ha giống na Đài Loan nhằm khai thác tối đa lợi thế về đất đai vào phát triển kinh tế, góp phần tăng thu nhập, cải thiện đời sống cho người dân."
+            },
+            "text": "Vũ Quang trồng thí điểm hơn 2 ha giống na Đài Loan"
+        }
+    },
+    {
+        "id": 785447,
+        "annotations": [
+            {
+                "id": "lnmgfzlHoO",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "C7ALPTOcMm",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Chính trị",
+                        "Kinh tế"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://baohatinh.vn/khoi-nghiep/lan-dau-tien-vung-thuong-ky-anh-co-mot-phong-giao-dich-ngan-hang/220281.htm",
+                "description": "Ngoài 2 quỹ tín dụng nhân dân thì Phòng Giao dịch Hưng Lợi là phòng giao dịch duy nhất của hệ thống ngân hàng trên địa bàn 4 xã vùng thượng huyện Kỳ Anh (Hà Tĩnh) tính đến thời điểm này"
+            },
+            "text": "Lần đầu tiên vùng thượng Kỳ Anh có một phòng giao dịch ngân hàng"
+        }
+    },
+    {
+        "id": 785446,
+        "annotations": [
+            {
+                "id": "bPkW-pw8rW",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "578twWWX5F",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Covid-19",
+                        "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://baohatinh.vn/y-te/ha-tinh-hop-ban-cac-giai-phap-phong-chong-dich-benh-covid-19-trong-tinh-hinh-moi/220296.htm",
+                "description": "Trước dự báo số lượng lớn công dân Hà Tĩnh từ các tỉnh, thành phía Nam về trong thời gian tới, Ban Chỉ đạo Phòng, chống dịch bệnh COVID-19 tỉnh và các địa phương đã họp bàn các giải pháp để đón, cách ly đảm bảo an toàn."
+            },
+            "text": "Hà Tĩnh họp bàn các giải pháp phòng, chống dịch bệnh COVID-19 trong tình hình mới"
+        }
+    },
+    {
+        "id": 785445,
+        "annotations": [
+            {
+                "id": "I9ozVbNhYQ",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "mSnYK2J3WW",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Du lịch"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://baohoabinh.com.vn/en/17/6818/Hoa-Binhs-tourist-sites-begin-welcoming-local-visitors.htm",
+                "description": ""
+            },
+            "text": "Hoa Binh’s tourist sites begin welcoming local visitors"
+        }
+    },
+    {
+        "id": 785444,
+        "annotations": [
+            {
+                "id": "R4pHAtw-bu",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "qkHmkiMfOi",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://baohoabinh.com.vn/en/2/6823/Tan-My-commune-focuses-111n-socio-ec111nomic-development-goals.htm",
+                "description": ""
+            },
+            "text": "Tan My commune focuses on socio-economic development goals"
+        }
+    },
+    {
+        "id": 785443,
+        "annotations": [
+            {
+                "id": "tozw_qX8fa",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "XnfKhma0d0",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Văn hoá",
+                        "Đời sống"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "http://baohoabinh.com.vn/en/6/6829/Women-in-Tan-Lac-district-jo105n-hands-to-build-new-rural-areas.htm",
+                "description": ""
+            },
+            "text": "Women in Tan Lac district join hands to build new rural areas"
+        }
+    },
+    {
+        "id": 785442,
+        "annotations": [
+            {
+                "id": "UhxMvRPUm3",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "wQcVJyzzol",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Công nghệ",
+                        "Khoa học"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://congthuong.vn/viet-nam-to-chuc-le-khai-truong-gian-hang-expo-2020-tai-dubai-165103.html",
+                "description": "Ngày 02/10, Việt Nam đã công bố gian hàng của mình khi Hội chợ Thế giới (Expo 2020) đang diễn ra tại Dubai. Với chủ đề ‘Chắt lọc quá khứ, định hình tương lai’, gian hàng Việt sẽ khám phá những đổi mới đang làm thay đổi cuộc sống của người Việt. Đồng thời"
+            },
+            "text": "Việt Nam tổ chức lễ khai trương gian hàng Expo 2020 tại Dubai"
+        }
+    },
+    {
+        "id": 785441,
+        "annotations": [
+            {
+                "id": "1MaJ0r1Ezc",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "okha6kl6nl",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Chính trị"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://congthuong.vn/khai-mac-trong-the-hoi-nghi-lan-thu-tu-ban-chap-hanh-tw-dang-khoa-xiii-165123.html",
+                "description": "Ban Chấp hành TW khóa XIII tập trung thảo luận, cho ý kiến về tình hình phòng, chống đại dịch COVID-19 và quan điểm, chủ trương về phòng, chống dịch trong tình hình mới; tình hình kinh tế-xã hội..."
+            },
+            "text": "Khai mạc trọng thể Hội nghị lần thứ tư Ban Chấp hành TW Đảng khóa XIII"
+        }
+    },
+    {
+        "id": 785440,
+        "annotations": [
+            {
+                "id": "kudKreDJ2n",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "KTpXaB4cNE",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế",
+                        "Đời sống",
+                        "Covid-19",
+                        "Sức khoẻ"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://congthuong.vn/bo-y-te-thong-tin-ve-gia-test-khang-nguyen-nhanh-165141.html",
+                "description": "Trước thông tin, một bộ test Covid-19 xét nghiệm nhanh ở nước ngoài chỉ có giá 1,5 USD, tương đương 35.000 đồng, nhưng ở Việt Nam hơn 200.000 đồng, Bộ Y tế đã có phản hồi về vấn đề này."
+            },
+            "text": "Bộ Y tế thông tin về giá test kháng nguyên nhanh"
+        }
+    },
+    {
+        "id": 785439,
+        "annotations": [
+            {
+                "id": "R8lobifbp8",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "K8w-TyIkL6",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Kinh tế"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://congthuong.vn/quan-ly-khu-cong-nghiep-khu-kinh-te-ky-vong-lan-gio-moi-165156.html",
+                "description": "Nghị định sửa đổi thay thế Nghị định 82/2018/NĐ-CP về quản lý khu công nghiệp (KCN), khu kinh tế (KKT) kỳ vọng sẽ đem \"làn gió mới\" trong thu hút đầu tư vào Việt Nam. Song, nhiều ý kiến cho rằng cần thêm những cơ chế ưu đãi cho nhà đầu tư KCN, KKT."
+            },
+            "text": "Quản lý khu công nghiệp, khu kinh tế: Kỳ vọng \"làn gió mới\""
+        }
+    },
+    {
+        "id": 785438,
+        "annotations": [
+            {
+                "id": "PuCjS_COyA",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Trung tính"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "IT1hPUJbuc",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Không xác định"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "topic"
+            }
+        ],
+        "data": {
+            "meta": {
+                "uri": "https://congthuong.vn/giam-huy-dong-dien-khi-va-cau-chuyen-cong-bang-trong-dieu-tiet-cac-nguon-dien-165131.html",
+                "description": "Trong 9 tháng đầu năm 2021, tác động mạnh mẽ của dịch Covid -19 đến mọi mặt đời sống kinh tế - xã hội, khiến nhu cầu tiêu thụ điện giảm. Việc giảm công suất huy động từ các nguồn cho hệ thống điện quốc gia là khó tránh khỏi. Tuy nhiên, câu hỏi đặt ra là c"
+            },
+            "text": "Giảm huy động điện khí và câu chuyện công bằng trong điều tiết các nguồn điện"
+        }
+    },
+    {
+        "id": 785437,
+        "annotations": [
+            {
+                "id": "HwGEVgO5YC",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Tích cực"
+                    ]
+                },
+                "to_name": "text",
+                "from_name": "sentiment"
+            },
+            {
+                "id": "cLHZVyfWtA",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Đời sống",
+                        "Bất động sản"
                     ]
                 },
                 "to_name": "text",
@@ -11041,42 +13317,6 @@
                 "description": "Xuôi theo dòng người về quê từ các tỉnh thành phía Nam nhiều ngày qua có cả những đứa trẻ mới sinh non nớt, những bà mẹ chưa tròn tháng ở cữ vì \"nếu ở lại cũng không còn tiền để đóng trọ\"."
             },
             "text": "Những đứa trẻ còn 'đỏ hỏn' theo cha mẹ vượt hàng nghìn km về quê: 'Vợ chồng thấy kiệt quệ nên mới tính đường về'"
-        }
-    },
-    {
-        "id": 785118,
-        "annotations": [
-            {
-                "id": "9BA0yQ86x_",
-                "type": "choices",
-                "value": {
-                    "choices": [
-                        "Tích cực"
-                    ]
-                },
-                "to_name": "text",
-                "from_name": "sentiment"
-            },
-            {
-                "id": "UlzhGiMLxQ",
-                "type": "choices",
-                "value": {
-                    "choices": [
-                        "Thế giới",
-                        "Kinh tế",
-                        "Bất động sản"
-                    ]
-                },
-                "to_name": "text",
-                "from_name": "topic"
-            }
-        ],
-        "data": {
-            "meta": {
-                "uri": "http://thoibaotaichinhvietnam.vn/pages/kinh-doanh/2021-10-01/nha-dau-tu-nuoc-ngoai-danh-gia-cao-tiem-nang-cua-bat-dong-san-nghi-duong-112021.aspx",
-                "description": "Mặc dù kết quả hoạt động của ngành bất động sản nghỉ dưỡng trong hai năm vừa qua gặp nhiều khó khăn nhưng đây vẫn là một ngành có xu hướng phát triển tố nhận được nhiều sự quan tâm của nhà đầu tư trong và ngoài nước."
-            },
-            "text": "Nhà đầu tư nước ngoài đánh giá cao tiềm năng của bất động sản nghỉ dưỡng"
         }
     },
     {
